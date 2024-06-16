@@ -1,4 +1,5 @@
-import express, { Request, Response } from "express";
+import express, { Request, Response, Router } from "express";
+
 import mongoose from "mongoose";
 
 const app = express();
